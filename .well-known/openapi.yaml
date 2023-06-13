@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  title: Retrieval Plugin API
+  title: LangChain Docs API By Laith
   version: 1.0.0
-  description: This API lets you search through the LangChain Documentation.
+  description: This API lets you search through the LangChain Python documentation.
 servers:
-  - url: https://lobster-app-znw6z.ondigitalocean.app
+  - url: https://retrieval-plugin-server-3kp6.onrender.com
 paths:
   /query:
     post:
